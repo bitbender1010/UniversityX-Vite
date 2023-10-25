@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <h1>Login Authentication - Netlify</h1>
+      <h1>Login Authentication - Netlify Function</h1>
     </>
   )
 }
