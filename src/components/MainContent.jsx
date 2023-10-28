@@ -1,4 +1,4 @@
-import '../css/maincontent.css'
+import '../css/MainContent.css'
 import InfoIcon from '../assets/info.svg'
 import ArrowIcon from '../assets/arrow.svg'
 
