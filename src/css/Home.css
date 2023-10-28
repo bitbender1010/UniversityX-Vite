@@ -1,0 +1,197 @@
+
+
+  .body-padding {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+  
+  .body-padding-left {
+    padding-left: 20%;
+  }
+  
+  /* nav {
+    border: 1px solid black;
+  } */
+
+  a {
+    cursor: pointer;
+  }
+  
+  .logo {
+    width: 180px;
+    height: auto;
+  }
+  
+  .not-icon {
+    width: auto;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .text {
+    font-size: 25px;
+  }
+  
+  .hero-img {
+    width: 500px;
+    height: auto;
+    float: right;
+  }
+  
+  .get-started {
+    background: white;
+    border: 2px solid black;
+    box-shadow: -10px 10px #9c2d9c;
+    font-size: 20px;
+    padding: 0.6em 1.2em;
+  }
+  
+  .get-started:hover {
+    box-shadow: -10px 10px black;
+    border: 2px solid #9c2d9c;
+  }
+  
+  /*Bottom Div*/
+  .bottom-div {
+    margin-bottom: 100px;
+  }
+  /*Feature DIV*/
+  .feature-div-parent {
+    background: #f2dcf0;
+    border: 2px solid black;
+  }
+  
+  .feature-div {
+    /* width: 300px; */
+    height: 100%;
+    background: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    padding: 20px;
+  }
+  
+  .feature-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    padding: 0px 10%;
+  }
+  
+  .feature-set-text {
+    font-size: 25px;
+    text-align: center;
+    margin: 100px auto;
+    width: 50%;
+  }
+  
+  .feature-div img {
+    width: 50px;
+    height: auto;
+    margin: 20px 0px;
+  }
+  
+  .fd-text {
+    font-size: 18px;
+  }
+  
+  .fd-sub {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  /*Show and Hide*/
+  .showbtn {
+    display: block!important;
+  }
+
+  .hidebtn {
+    display: none!important;
+  }
+  
+  /*Mobile*/
+  @media (max-width: 768px) {
+    .grid-hero-left {
+      display: grid;
+      grid-template-columns: 1fr !important;
+    }
+  
+    .body-padding-left,
+    .body-padding {
+      padding: 0px 5% !important;
+    }
+  
+    .hero-img {
+      margin-top: 50px;
+    }
+  
+    .feature-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 100px;
+      padding: 0px 10%;
+    }
+  
+    .feature-set-text {
+      width: 70%;
+    }
+  }
+  
+  /*Small Mobile*/
+  @media (max-width: 425px) {
+    .feature-container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    .feature-div-parent {
+      position: relative;
+      left: -10px;
+    }
+  
+    .feature-set-text {
+      width: 90%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .top-navbar {
+      display: inline-flex !important;
+    }
+  }
+  
+  /*Hacka*/
+  .reserve-name {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  
+  .reserve-name span {
+    margin-left: 10px;
+  }
+
+  .reserve-name > span:hover {
+    text-decoration: underline;
+    color: #9c2d9c;
+  }
+  
+  .footer {
+    margin: 100px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer img {
+    width: 30px;
+    height: auto;
+    margin: 0px 10px;
+  }

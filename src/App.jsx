@@ -1,31 +1,13 @@
 import './App.css'
 import Home from './pages/Home'
-import About from './pages/About'
+import Dashboard from './pages/Dashboard'
+
+import CourseDashboard from './courses/CourseDashboard'
+import CourseDetailsDashboard from './courses/CourseDetailsDashboard'
+
 
 import { Routes, Route, Navigate } from 'react-router-dom'
 
-const PrivateRoute = ({ element: Component, ...rest }) => {
-  const user = netlifyIdentity.currentUser();
-  const isLoggedIn = user !== null;
-
-  return (
-    <Route
-      {...rest}
-      render={({ location }) =>
-        isLoggedIn ? (
-          <Component />
-        ) : (
-          <Navigate
-            to={{
-              pathname: '/',
-              state: { from: location },
-            }}
-          />
-        )
-      }
-    />
-  );
-};
 
 function App() {
 
@@ -37,8 +19,16 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route
-        path="/about"
-        element={isLoggedIn ? <About /> : <Navigate to="/" />}
+        path="/dashboard"
+        element={isLoggedIn ? <Dashboard /> : <Navigate to="/" />}
+      />
+      <Route
+        path="/dashboard/course-dashboard"
+        element={isLoggedIn ? <CourseDashboard /> : <Navigate to="/" />}
+      />
+      <Route
+        path="/dashboard/course-details-dashboard"
+        element={isLoggedIn ? <CourseDetailsDashboard /> : <Navigate to="/" />}
       />
     </Routes>
     </>
