@@ -151,6 +151,11 @@
     font-weight: 600;
     border-radius: 200px;
   }
+
+  /*Lazy Loading*/
+  iframe {
+    background:url(../assets/loader.gif) center center no-repeat;
+  }
   
   /*Mobile*/
   @media (max-width: 768px) {

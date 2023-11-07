@@ -33,7 +33,7 @@ function SOPL() {
 
             {/* PDF Iframe */}
             <div className='pdf-frame-container'>
-            <iframe src="https://drive.google.com/file/d/1DYHSbvZf6Uwa0BTlKLJ0Yqm70k2TGjOM/preview" width="640" height="480" allow="autoplay" className='pdf-iframe'></iframe>
+            <iframe loading="lazy" src="https://drive.google.com/file/d/1DYHSbvZf6Uwa0BTlKLJ0Yqm70k2TGjOM/preview" width="640" height="480" allow="autoplay" className='pdf-iframe'></iframe>
             </div>
          
             <a href='https://drive.google.com/uc?id=1DYHSbvZf6Uwa0BTlKLJ0Yqm70k2TGjOM&export=download'> <button className='download-pdf'>Download PDF</button> </a>
