@@ -2,10 +2,13 @@ import '../css/Dashboard.css'
 
 import Navigation from '../components/Navigation'
 import Sidebar from '../components/Sidebar'
-import ListOfCourses from '../components/ListOfCourses'
+import CourseContent from '../courses-components/CourseContent'
+
+// CSC Imports
+import CSC432_PDF_Sub from '../courses-components/CSC432-Pdf-S'
 
 
-function Dashboard() {
+function CSC432_PDF_Main() {
     return(
         <>
             <Navigation />
@@ -13,10 +16,10 @@ function Dashboard() {
             {/* Left and Right */}
             <div className='custom-grid'>
                 <Sidebar />
-                <ListOfCourses />
+                <CSC432_PDF_Sub />
             </div>
         </>
     )
 }
 
-export default Dashboard
+export default CSC432_PDF_Main

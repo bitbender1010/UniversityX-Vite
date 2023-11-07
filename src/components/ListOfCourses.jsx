@@ -2,7 +2,7 @@ import '../css/MainContent.css'
 import InfoIcon from '../assets/info.svg'
 import ArrowIcon from '../assets/arrow.svg'
 
-function MainContent() {
+function ListOfCourses() {
 
     return(
         <>
@@ -26,13 +26,13 @@ function MainContent() {
 
             {/* List of courses */}
             <div className="list-of-courses">
-                <div className="loc font-medium">List of courses (11)</div>
+                <div className="loc font-medium">List Of Courses (2)</div>
             </div>
 
             {/* Course Cards */}
-            <a href={`/dashboard/course-dashboard`}>
+            <a href={`/dashboard/csc432`}>
             <div className='flex justify-between items-start course-card'>
-                <div>Computer as a Problem Solving Tool (CSC 120)</div>
+                <div>Principles of Programming Language II (CSC 432)</div>
 
                 <div className='flex right-icons'>
                     <img src={InfoIcon} className='info-icon'/>
@@ -41,31 +41,9 @@ function MainContent() {
             </div>
             </a>
 
-            <a href={`/dashboard/course-dashboard`}>
+            <a href={`/dashboard/csc438`}>
             <div className='flex justify-between items-start course-card'>
-                <div>Software Workshop (CSC 104)</div>
-
-                <div className='flex right-icons'>
-                    <img src={InfoIcon} className='info-icon'/>
-                    <img src={ArrowIcon} className='arrow-icon'/>
-                </div>
-            </div>
-            </a>
-
-            <a href={`/dashboard/course-dashboard`}>
-            <div className='flex justify-between items-start course-card'>
-                <div>Principles of computer organization (CSC 112)</div>
-
-                <div className='flex right-icons'>
-                    <img src={InfoIcon} className='info-icon'/>
-                    <img src={ArrowIcon} className='arrow-icon'/>
-                </div>
-            </div>
-            </a>
-
-            <a href={`/dashboard/course-dashboard`}>
-            <div className='flex justify-between items-start course-card'>
-                <div>Calculus (MAT 112)</div>
+                <div>Computer Network / Communication (CSC 438)</div>
 
                 <div className='flex right-icons'>
                     <img src={InfoIcon} className='info-icon'/>
@@ -80,4 +58,4 @@ function MainContent() {
     )
 }
 
-export default MainContent
+export default ListOfCourses

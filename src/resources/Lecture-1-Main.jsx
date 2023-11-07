@@ -2,10 +2,13 @@ import '../css/Dashboard.css'
 
 import Navigation from '../components/Navigation'
 import Sidebar from '../components/Sidebar'
-import ListOfCourses from '../components/ListOfCourses'
+import CourseContent from '../courses-components/CourseContent'
+
+// CSC Imports
+import Lecture_1 from './Lecture-1'
 
 
-function Dashboard() {
+function Lecture_1_Main() {
     return(
         <>
             <Navigation />
@@ -13,10 +16,10 @@ function Dashboard() {
             {/* Left and Right */}
             <div className='custom-grid'>
                 <Sidebar />
-                <ListOfCourses />
+                <Lecture_1 />
             </div>
         </>
     )
 }
 
-export default Dashboard
+export default Lecture_1_Main
