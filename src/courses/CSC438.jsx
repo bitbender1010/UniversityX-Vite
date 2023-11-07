@@ -46,7 +46,7 @@ function CSC438() {
             </div>
             </a>
 
-            <a href={`/dashboard/csc432/videos`}>
+            <a href={`/dashboard/csc438/videos`}>
             <div className='flex course-card justify-between items-start relative'>
                 <div className='flex'>
                     <div className='course-num course-num-inactive'>2</div>

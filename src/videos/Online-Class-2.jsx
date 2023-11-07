@@ -36,7 +36,7 @@ function Online_Class_2() {
             <iframe src="https://drive.google.com/file/d/1xB0rQyytZJJMr4mG0XF9UYOBzgWs6m9p/preview" width="640" height="480" allow="autoplay" className='pdf-iframe'></iframe>
             </div>
          
-            <a href='https://drive.google.com/uc?id=1xB0rQyytZJJMr4mG0XF9UYOBzgWs6m9p&export=download'> <button className='download-pdf'>Download Video: 212mb </button> </a>
+            <a href='https://drive.google.com/uc?id=1xB0rQyytZJJMr4mG0XF9UYOBzgWs6m9p&export=download'> <button className='download-pdf'>Download Video: 212 MB </button> </a>
 
     </div>
 
