@@ -38,6 +38,23 @@ function CSC432_Video_Sub() {
             </div>
             </a>
 
+            <a href={`/dashboard/csc432/videos/revision-online`}>
+            <div className='flex course-card justify-between items-start'>
+                <div className='flex top-fix'>
+                    <div className='course-num course-num-inactive cn-icon-padding'>
+                        <img src={VideoIcon}/>
+                    </div>
+                    <div className='top-fix-2'>Revision Online Class</div>
+                </div>
+
+                <div className='flex right-icons top-fix-5'>
+                    <img src={ArrowIcon} className='arrow-icon'/>
+                </div>
+            </div>
+            </a>
+
+             
+
         </div>
         </>
     )

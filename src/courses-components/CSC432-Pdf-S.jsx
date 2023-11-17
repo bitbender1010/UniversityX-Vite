@@ -53,6 +53,21 @@ function CSC432_PDF_Sub() {
             </div>
             </a>
 
+            <a href={`/dashboard/csc432/pdfs/lecture-3x1`}>
+            <div className='flex course-card justify-between items-start'>
+                <div className='flex top-fix'>
+                    <div className='course-num course-num-inactive cn-icon-padding'>
+                        <img src={PDFIcon}/>
+                    </div>
+                    <div className='top-fix-2'>Lecture 3.1</div>
+                </div>
+
+                <div className='flex right-icons top-fix-5'>
+                    <img src={ArrowIcon} className='arrow-icon'/>
+                </div>
+            </div>
+            </a>
+
             <a href={`/dashboard/csc432/pdfs/lecture-3x2`}>
             <div className='flex course-card justify-between items-start'>
                 <div className='flex top-fix'>
@@ -75,6 +90,96 @@ function CSC432_PDF_Sub() {
                         <img src={PDFIcon}/>
                     </div>
                     <div className='top-fix-2'>Lecture 3.3</div>
+                </div>
+
+                <div className='flex right-icons top-fix-5'>
+                    <img src={ArrowIcon} className='arrow-icon'/>
+                </div>
+            </div>
+            </a>
+
+            <a href={`/dashboard/csc432/pdfs/lecture-3x4`}>
+            <div className='flex course-card justify-between items-start'>
+                <div className='flex top-fix'>
+                    <div className='course-num course-num-inactive cn-icon-padding'>
+                        <img src={PDFIcon}/>
+                    </div>
+                    <div className='top-fix-2'>Lecture 3.4</div>
+                </div>
+
+                <div className='flex right-icons top-fix-5'>
+                    <img src={ArrowIcon} className='arrow-icon'/>
+                </div>
+            </div>
+            </a>
+
+            <a href={`/dashboard/csc432/pdfs/lecture-3x5`}>
+            <div className='flex course-card justify-between items-start'>
+                <div className='flex top-fix'>
+                    <div className='course-num course-num-inactive cn-icon-padding'>
+                        <img src={PDFIcon}/>
+                    </div>
+                    <div className='top-fix-2'>Lecture 3.5</div>
+                </div>
+
+                <div className='flex right-icons top-fix-5'>
+                    <img src={ArrowIcon} className='arrow-icon'/>
+                </div>
+            </div>
+            </a>
+
+            <a href={`/dashboard/csc432/pdfs/lecture-3x6`}>
+            <div className='flex course-card justify-between items-start'>
+                <div className='flex top-fix'>
+                    <div className='course-num course-num-inactive cn-icon-padding'>
+                        <img src={PDFIcon}/>
+                    </div>
+                    <div className='top-fix-2'>Lecture 3.6</div>
+                </div>
+
+                <div className='flex right-icons top-fix-5'>
+                    <img src={ArrowIcon} className='arrow-icon'/>
+                </div>
+            </div>
+            </a>
+
+            <a href={`/dashboard/csc432/pdfs/lecture-4`}>
+            <div className='flex course-card justify-between items-start'>
+                <div className='flex top-fix'>
+                    <div className='course-num course-num-inactive cn-icon-padding'>
+                        <img src={PDFIcon}/>
+                    </div>
+                    <div className='top-fix-2'>Lecture 4</div>
+                </div>
+
+                <div className='flex right-icons top-fix-5'>
+                    <img src={ArrowIcon} className='arrow-icon'/>
+                </div>
+            </div>
+            </a>
+
+            <a href={`/dashboard/csc432/pdfs/lecture-5`}>
+            <div className='flex course-card justify-between items-start'>
+                <div className='flex top-fix'>
+                    <div className='course-num course-num-inactive cn-icon-padding'>
+                        <img src={PDFIcon}/>
+                    </div>
+                    <div className='top-fix-2'>Lecture 5</div>
+                </div>
+
+                <div className='flex right-icons top-fix-5'>
+                    <img src={ArrowIcon} className='arrow-icon'/>
+                </div>
+            </div>
+            </a>
+
+            <a href={`/dashboard/csc432/pdfs/lecture-6`}>
+            <div className='flex course-card justify-between items-start'>
+                <div className='flex top-fix'>
+                    <div className='course-num course-num-inactive cn-icon-padding'>
+                        <img src={PDFIcon}/>
+                    </div>
+                    <div className='top-fix-2'>Lecture 6</div>
                 </div>
 
                 <div className='flex right-icons top-fix-5'>
